@@ -12,6 +12,9 @@ pyenv local django_test
 # install dependencies
 pip install -r requirements.txt
 
+# cd to tutorial
+cd tutorial
+
 # migrate
 python manage.py migrate
 
